@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research scaffold, cite the repository and the associated paper draft; replace this metadata when a public version is archived."
+title: "Authority Kernel: Reference Implementation for Paper 3"
+authors:
+  - family-names: Erfani
+    given-names: Abolfazl
+    affiliation: Tarbiat Modares University, Tehran, Iran
+    orcid: "https://orcid.org/0009-0001-9393-4974"
+version: 0.1.0
+date-released: 2026-10-09
+license: Apache-2.0
