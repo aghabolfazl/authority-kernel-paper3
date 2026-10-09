@@ -1,17 +1,13 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
-
 [project]
-name = "authority-kernel-paper3"
+name = "authority-kernel"
 version = "0.1.0"
-description = "Research reference implementation for an AI actuation authority boundary"
+description = "Research reference implementation of a default-deny authority boundary"
 readme = "README.md"
-requires-python = ">=3.10"
-license = {file = "LICENSE"}
-authors = [{name = "Abolfazl Erfani"}]
-keywords = ["autonomous vehicles", "runtime assurance", "capability security", "AI safety"]
-classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering"]
-
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Abolfazl Erfani" }]
 [tool.setuptools.packages.find]
 include = ["authority_kernel*"]
